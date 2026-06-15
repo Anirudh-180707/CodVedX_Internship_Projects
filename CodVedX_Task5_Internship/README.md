@@ -36,15 +36,17 @@ Smart_Recommendation_System/
 
 ## Dataset
 
-The project uses an anime dataset containing:
+The project uses an anime dataset containing information about anime titles, genres, ratings, episode counts, and popularity metrics.
 
-* Anime ID
-* Anime Name
-* Genre
-* Type
-* Episodes
-* Rating
-* Members
+Dataset Source (Kaggle):
+
+https://www.kaggle.com/datasets/CooperUnion/anime-recommendations-database
+
+Dataset File Used:
+
+```text
+anime.csv
+```
 
 Dataset Columns:
 
@@ -57,6 +59,8 @@ episodes
 rating
 members
 ```
+
+Due to the dataset size, the original dataset is not included in this repository. It can be downloaded from the Kaggle link above and placed in the project directory before running the application.
 
 ## Machine Learning Workflow
 
